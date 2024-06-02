@@ -113,9 +113,11 @@ wget -q -O /usr/bin/addss "https://raw.githubusercontent.com/QueenGoo/botssh/mai
 
 wget -q -O /usr/bin/cek-ssh "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/cek-ssh.sh" && chmod +x /usr/bin/cek-ssh
 
+wget -q -O /usr/bin/cek-ssh "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/cek-ssh.sh" && chmod +x /usr/bin/cek-ssh
 
 
-wget -q -O /usr/bin/cek-ss "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/cek-ss.sh" && chmod +x /usr/bin/cek-ss
+
+wget -q -O /usr/bin/cek-ss "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/addssh.sh" && chmod +x /usr/bin/addssh
 
 
 
