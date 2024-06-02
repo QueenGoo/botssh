@@ -34,7 +34,7 @@ azi=$(cat /root/nsdomain)
 domain=$(cat /etc/xray/domain)
 echo "INSTALL BOT CREATE SSH via TELEGRAM"
 read -e -p "[*] Input Your Id Telegram :" admin
-read -e -p "[*] Input Your bot Telegram :" token
+read -e -p "[*] Input Token bot Telegram :" token
 read -e -p "[*] Input username Telegram :" user
 
 cat > /media/cybervpn/var.txt << END
@@ -85,9 +85,9 @@ systemctl start cybervpn
 systemctl enable cybervpn
 
 clear
-echo "downloading asset"
+echo "downloading menu"
 
-wget -q -O /usr/bin/panelbot "https://raw.githubusercontent.com/Tikusmerdeka/QueenGoo/botssh/main/botssh/panelbot.sh" && chmod +x /usr/bin/panelbot
+wget -q -O /usr/bin/panelbot "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/panelbot.sh" && chmod +x /usr/bin/panelbot
 
 
 
@@ -113,11 +113,9 @@ wget -q -O /usr/bin/addss "https://raw.githubusercontent.com/QueenGoo/botssh/mai
 
 wget -q -O /usr/bin/cek-ssh "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/cek-ssh.sh" && chmod +x /usr/bin/cek-ssh
 
-wget -q -O /usr/bin/cek-ssh "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/cek-ssh.sh" && chmod +x /usr/bin/cek-ssh
 
 
-
-wget -q -O /usr/bin/cek-ss "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/addssh.sh" && chmod +x /usr/bin/addssh
+wget -q -O /usr/bin/cek-ss "https://raw.githubusercontent.com/QueenGoo/botssh/main/botssh/cek-ss.sh" && chmod +x /usr/bin/cek-ss
 
 
 
